@@ -8,6 +8,7 @@ html { /*no need for hashtag*/
     -ms-text-size-adjust: 100%; /* for spec browsers to adjust auto*/
 }
 
+
 body {
     font-size: 14px; /* could also be %*/
     margin: 0; /*no margins between Home, Gallery & Reservation buttons and the top of the screen*/
