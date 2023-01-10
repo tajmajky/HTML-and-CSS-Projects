@@ -4,14 +4,15 @@
 <head>
 <meta charset="utf-8">
 <title> Famous Hungarian Paintings   </title>
+<link rel="stylesheet" href="./one_page_website.css">
+<link rel="stylesheet" href="./animation_onepagewebsite.css">
 </head>
 
 <body>
 
-<h1> <em><strong> The Most Famous Hungarian Paintings in One Place! </strong></em></h1>
 	<!-- NAV -->
 		<div>
-			<div>
+			<div class="menu">
 				<ul>
 					<a href = "#Home" id="link"><li>HOME</li></a>
 					<a href = "#Paintings" id="link"><li>PAINTINGS</li></a>
@@ -21,11 +22,16 @@
 			</div>
 		</div>
 	<!-- END NAV -->
-	
+		
+			<div id="title">
+				<h1> <em><strong> The Most Famous Hungarian Paintings in One Place </strong></em></h1>
+			</div>
+		
+
 		<!-- Paintings -->
 	<section> 
 		<div id="Paintings">
-			<h1> PAINTINGS </h1>
+			<h2> Paintings </h2>
 			
 		<div>
 			
@@ -97,7 +103,7 @@
 <section> 
 	
 		<div id="Museums">
-			<h1> MUSEUMS </h1>
+			<h2> Museums </h2>
 			
 		<div>
 
@@ -131,11 +137,12 @@
 			 Currently, it is the home of <em> Lady in Violet. </em> </p>
 					</div>
 				<img width="360" src=".\Images\Buda--Castles01.jpg" alt="Picture of a museum">
-				<p>
+				
 
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/2T2obfvkYqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-
-</p>
+					<div class="video-box">
+						<h2> Let`s watch a video about the Hungarian National Gallery!</h2>
+						<p><iframe id="vidi" width="560" height="315" src="https://www.youtube.com/embed/2T2obfvkYqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	</p> 
+					</div>
 				</div>
 			</div>
 			<!-- END Photo Container 5 -->			
@@ -146,14 +153,14 @@
 	<!-- Tickets -->
 	<section> 
 		<div id="contact">
-			<h1> EVENTS </h1>
+			<h2> Events </h2>
 			
-					</h2> Sign up to get the latest information about events, exhibitons and many more! </h2>
+					</h3> Sign up to get the latest information about events, exhibitons and many more! </h3>
 				 
 				<p>
 					Please provide us with your basic contact information.
 				</p>
-				<div>
+				<div class="rsvp">
 					<form action="" method="post">
 						 <input class="rsvp" type="text" value="First Name">
 						  <input class="rsvp" type="text" value="Last Name">
@@ -167,13 +174,14 @@
 							<input type="submit" value="Submit">
 						</div>			
 					</form>				
-		<div>
+				</div>
+		</div>		
 			<!-- END Tickets -->
-		</section> 
+	</section> 
 		
 		<!-- Footer -->
-<div> 
-	<br>www.themostfamoushungarianpaintings.hun &nbsp;|&nbsp;  &copy; 2022
+<div class="footer"> 
+	<br><b>www.themostfamoushungarianpaintings.hun &nbsp;<!--this means space-->|&nbsp;  &copy; 2022 </b>
 </div>
 <!-- END Footer -->
 		
