@@ -117,17 +117,53 @@ h2 {
     font-family: 'Raleway', sans-serif;
 }
 
+.rsvp input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E0F;
+    padding: 12px 12px;
+    width: 80%;
+    border-top: 1px solid #090b0d;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090b0d;
+    margin: 10px auto;
+    border-radius: 7px;
+    background: #13161b;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5,  0.15);
+    font-family: 'Raleway', sans-serif;
+   
+}
 .rsvp input[type="text"]:hover {
-    box-shadow: 0 0 15px rgba(240, 244, 13, 0.8);
+    box-shadow: 0 0 15px white;
 }
 
 .form-spacer {
     padding: 30px 39px;
 }
 
-.submit input[type="submit"]:hover {
-    color: black;
-    background-color: #8D8E0F;
+input[type=submit] {
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 5%;
+    font-size: 14px;
+    transition: border-color 0.3 color 0.3s background-color 0.3s;
+    border-radius: 7px;
+    background-color: #aad51d;
+    box-shadow:  1px 1px 4px 0 rgba(100, 65, 0,.3);
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    color: rgb(248, 248, 248);
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0, 0.5);
 }
 
@@ -146,3 +182,8 @@ h2 {
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5,  0.15);
     text-align: center;
 }
+.footer:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+ }
