@@ -30,5 +30,5 @@ It is a sample website for educational purposes about Hungarian arts.
 It is styled using CSS, contains a navbar, image container, columns, tables and a looped video.
 
     My Portfolio Website
-This is my personal portfoli site where you can read about me and my education, and have a look at my online creations. I really enjoyed making this site with CSS.
+This is my personal portfolio site where you can read about me and my education, and have a look at my online creations. I really enjoyed making this site with CSS.
 It contains a looped video, navbar, columns, form, etc. 
