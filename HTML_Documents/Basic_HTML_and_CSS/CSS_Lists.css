@@ -1,0 +1,15 @@
+h1 {
+	
+	color: black;
+	font-family: Papyrus;
+}
+ol{
+	list-style-type: upper-roman;
+	font-family: Papyrus;
+}
+
+ul{
+	list-style-type: square;
+	font-family: Papyrus;
+}
+	
