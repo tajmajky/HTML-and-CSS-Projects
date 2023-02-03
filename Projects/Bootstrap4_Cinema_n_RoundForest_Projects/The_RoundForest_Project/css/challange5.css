@@ -1,0 +1,270 @@
+
+
+body, html {
+    height: 100%;
+    font-family: 'Michroma', 'Courier New', Courier, monospace;
+}
+
+
+h1{
+    font-family: 'Michroma','Courier New', Courier, monospace;
+    font-weight: 900;
+    
+    color: rgb(2, 45, 22);
+    font-size:xx-large;
+    letter-spacing: 20px;
+}
+
+h2{
+    font-family: 'Michroma', 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px #acaba0;
+}
+
+p{
+    font-family: 'Helvetica', "Lucida Console",'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size:x-large;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url(../img/forest2.jpg);
+
+        /* Rounded edges of img */
+    border-radius: 20px;
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 40%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    
+    /* Position text in the middle of the page/image */
+    .bg-text {
+    background-color: rgb(11, 56, 20); /* Fallback color */
+    background-color: rgba(11,56,20, 0.4); /* Black w/opacity/see-through */
+    color: rgb(9, 42, 19);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #b7f37c;
+    }
+
+    .menu {
+        top: 0;
+        left: 0;
+        /* to position the containers in the most top & most left corner*/
+        position: absolute; /*to put the containers in the absolutely top left corner*/
+        width: 100%;
+        font: bold 'Michroma', sans-serif;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+        list-style: none;
+        display: inline;
+    }
+
+    .menu li {
+        color: rgb(11, 56, 20);
+        background-color: #fcfcfd;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        padding: 3px 2%;
+        border: 1px solid rgb(11, 56, 20);
+        box-shadow: 5px 5px 10px rgb(11, 56, 20);
+        cursor: pointer;
+        transition-property: background;
+        transition-duration: .1s;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+    }
+
+    
+.menu li:hover {
+    color: rgb(251, 251, 249);
+    background-color: rgb(11, 56, 20);
+    text-shadow: none;
+    transform: scale(0.9); /* Makes the button increase 1.5 times in size */
+    transition: transform 0.5s;
+ }
+
+    .bg-menu {
+
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+
+
+/* Create two equal columns that floats next to each other */
+ 
+
+    .image {
+        display: block;
+        width: 100%;
+
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: .5s ease;
+
+      }
+
+      .button1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: .5s ease;
+
+
+
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .row {
+
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+
+        color: rgb(224, 189, 15);
+        font-family: 'Helvetica', 'Courier New', Courier, monospace;
+
+        column-gap: 50px;
+
+
+        width: 850px;
+        height: 200px;
+        border: 3px rgb(186, 235, 186) solid;
+        box-shadow: 5px 5px 5px rgb(80, 75, 75);
+      }
+
+      .col1 {
+        float: left;
+        width: 50%;
+
+      }
+      
+
+/*TABLE STYLES*/
+
+    .plan{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    table {
+        border: 2px rgba(22, 119, 71, 0.939) solid;
+        background-color: rgb(11, 56, 20);
+        color: white ;
+        font-family: 'Helvetica','Michroma','Courier New', Courier, monospace;
+        text-align: center;
+        box-shadow: 3px 3px 3px black;
+      }
+
+      th{
+        font-family:'Helvetica', Courier, monospace;
+        background-color: rgb(249, 244, 244) ;
+        color: rgb(11, 56, 20) ;
+        text-shadow: #bab8a0;
+        padding: 10px 10px 10px 10px;
+        font-weight: bold;
+       cursor: pointer;
+    }
+
+    tr,td {
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+        
+    }
+
+      td:hover{
+        background-color: rgb(249, 244, 244) ;
+        color: black ;
+        transform: scale(1.1); /* Makes the button increase 1.5 times in size */
+        transition: transform 1.0s;
+    }
+
+
+
+/*END OF TABLE STYLES*/
+
+.videoloop{
+  
+    display: flex; 
+    justify-content: center; 
+    margin: auto;
+    margin-left: 50vw; 
+    transform: translate(-50%);
+    border: 4px black solid;
+}
+
+.centered {
+    color: rgb(2, 45, 22);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 4px #b7f37c;
+    font-weight: 700;
+ 
+  }
+
+
+
+/*FOOTER STYLES*/
+
+.footer {
+
+    background-color:rgb(11, 56, 20, .5) ;
+    
+    font-family: 'Michroma', sans-serif;
+    color: rgb(11, 56, 20);
+    width: 100%;
+    margin: 10px 0px 50px 0px;
+    padding: 1% 0% 3% 0%;
+    text-align: center;
+}
+.footer:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
