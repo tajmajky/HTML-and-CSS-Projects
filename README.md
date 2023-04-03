@@ -15,6 +15,7 @@ This is display of sample websites that I made using HTML & CSS.
 - Pizza Menu
 - Tic Tac Toe Game
 - Calculator
+- To Do App
 
 
     Space Station Website
@@ -46,3 +47,6 @@ Styled with CSS, it contains a simple 3by3 table. I added sound effects for a mo
      
      Calculator
 Very simple and functional calculator created with HTML, CSS & JS. 
+
+     To-Do App
+A beautiful and easy to use to-do app I created with CSS & JS.
